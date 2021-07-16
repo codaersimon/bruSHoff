@@ -25,13 +25,13 @@ a:hover{
 #mitte{
     position: absolute;
     width: 100%;
-    top: 550px;
+    top: 500px;
     z-index: 2;
 }
 #unten{
     position: absolute;
     width: 100%;
-    top: 1000px;
+    top: 950px;
     z-index: 3;
     background-color: #F2F3F3;
 }
@@ -47,7 +47,7 @@ nav{
 }
 nav>h3{
     padding-left: 8px;
-    padding-right: 40vw;
+    padding-right: 45vw;
     display: inline-block;
     font-family: 'anton';
     letter-spacing: 2px;
@@ -61,7 +61,7 @@ nav>h3{
 #navlist li{
     list-style-type: none;
     display: inline-block;
-    padding-left: 60px;
+    padding-right: 50px;
 }
 /* Hero section */
 #hero{
@@ -115,11 +115,15 @@ span{
     width: 90%;
     margin: 0 auto;
 }
+#gallery article a{
+    font-family: 'anton'
+}
 img{
     margin-left: 10%;
-    padding-top: 50px;
+    margin-top: 50px;
     width: 35%;
     height: 500px;
+    box-shadow: 3px 3px 8px 3px #888888;
 }
 
 /* FOOTER */
@@ -143,15 +147,21 @@ form{
     background-color: #fff;
     border: 1px solid lightgrey;
     border-radius: 15px;
+
 }
 #button:hover{
     background-color: rgb(194, 194, 194);
 }
 #mail{
     border: 1px solid lightgrey;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 5px;
     border-radius: 15px;
+    outline:none;
+    box-shadow: 1px 1px 8px 1px #888888;
+}
+#mail:hover{
+    box-shadow: none
 }
 /* SOCIALS */
 #socials ul{
