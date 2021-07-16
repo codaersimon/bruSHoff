@@ -7,7 +7,7 @@
 /* general CSS */
 html {
     scroll-behavior: smooth;
-  }
+}
 body{
     font-family:'merriweather'
 }
@@ -25,20 +25,20 @@ a:hover{
 #mitte{
     position: absolute;
     width: 100%;
-    top: 450px;
+    top: 550px;
     z-index: 2;
 }
 #unten{
     position: absolute;
     width: 100%;
-    top: 900px;
+    top: 1000px;
     z-index: 3;
     background-color: #F2F3F3;
 }
 
 /* Header Nav */
 nav{
-    height: 4vh;
+    height: 5vh;
     background-color: #F2F3F3;
     width: 100%;
     padding-top: 2px;
@@ -47,7 +47,7 @@ nav{
 }
 nav>h3{
     padding-left: 8px;
-    padding-right: 50vw;
+    padding-right: 40vw;
     display: inline-block;
     font-family: 'anton';
     letter-spacing: 2px;
@@ -67,34 +67,30 @@ nav>h3{
 #hero{
     height: 130vh;
     background-image: url(../img/steve-johnson-zBY6td_nVNA-unsplash.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: cover
 }
 #hero h1{
     font-size: 80px;
     position: relative;
-    top: 290px;
+    top: 270px;
     padding-left: 8px;
-    color: #F2F3F3
+    color: #F2F3F3;
+    letter-spacing: 1px;
 }
 #hero h2{
     font-size: 30px;
     position: relative;
-    top: 290px;
+    top: 270px;
     padding-left: 8px;
     color: #F2F3F3;
+    letter-spacing: .5px;
 }
 /* Gallery Section */
 #transit div{
     width: 100%;
     height:80vh;
     background-image:url(../img/transit.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: cover
 }
 #gallery h1{
     font-size: 60px;
@@ -103,8 +99,8 @@ nav>h3{
 }
 span{
     font-family: 'anton';
-    letter-spacing: 2px;
-    font-size: 60px;
+    letter-spacing: 3px;
+    font-size: 70px;
 }
 #gallery p{
     font-size: 20px;
@@ -113,11 +109,11 @@ span{
     width: 50%;
     margin: 0 auto;
 }
-#gallery a{
+#gallery article{
     font-size: 20px;
     text-align: center;
-    width: 50%;
-    margin-left: 42%;
+    width: 90%;
+    margin: 0 auto;
 }
 img{
     margin-left: 10%;
@@ -125,9 +121,7 @@ img{
     width: 35%;
     height: 500px;
 }
-img:hover{
-    box-shadow: 5px 5px 5px rgb(37, 35, 35)();
-}
+
 /* FOOTER */
 #base h3{
         font-size: 25px;
@@ -147,12 +141,31 @@ form{
 #button{
     color:#000;
     background-color: #fff;
-    border: none;
-    box-shadow: 1px 1px 1px 1px;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+#button:hover{
+    background-color: rgb(194, 194, 194);
 }
 #mail{
-    border: none;
-    box-shadow: 1px 1px 1px 1px;
+    border: 1px solid lightgrey;
     margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 15px;
 }
-
+/* SOCIALS */
+#socials ul{
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+#socials li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+::placeholder{
+    text-align: center;
+}
